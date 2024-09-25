@@ -105,8 +105,6 @@ li a{
     background: black;
     width: 50px;
 }
-
-
 .title::after{
     content: '';
     position: absolute;
@@ -132,7 +130,6 @@ img{
     
 }
 .aboutleft{
-    
     padding-inline:200px;
 }
 .aboutright{
@@ -551,6 +548,67 @@ footer p{
     }
     .main1{
         display:flex;
+        flex-wrap: wrap;
+    }
+    .aboutleft img{
+        width:200px;
+        height:300px;
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+    .aboutright{
+        padding-inline: -50px;
+        text-align: center;
+    }
+    .aboutright h2{
+        font-size: 25px;
+    }
+    .aboutright span{
+        font-size: 25px;
+    }
+    .aboutright p{
+        font-size: 15px;
+    }
+    #size{
+        font-size: 15px;
+    }
+    .service{
+        flex-direction: column;
+        font-size: 20px;
+        padding:-50px;
+    }
+    #serviceleft{
+        width:320px;
+    }
+    #serviceleft h4{
+        font-size: 20px;
+    }
+    #serviceleft p{
+        font-size: 15px;
+    }
+    #servicemiddle{
+        width:320px;
+    }
+    #servicemiddle h4{
+        font-size: 20px;
+    }
+    #servicemiddle p{
+        font-size: 15px;
+    }
+    #serviceright{
+        width:320px;
+    }
+    #serviceright h4{
+        font-size: 20px;
+    }
+    #serviceright p{
+        font-size: 15px;
+    }
+    .main3{
+        padding-inline: -100px;
+    }
+    .skills{
+        display: flex;
         flex-wrap: wrap;
     }
 }
